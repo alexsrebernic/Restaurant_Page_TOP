@@ -1,0 +1,25 @@
+{
+  "name": "restaurant_page_top",
+  "version": "1.0.0",
+  "description": "Restaurant Page ",
+  "main": "webpack.config.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsrebernic/Restaurant_Page_TOP.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsrebernic/Restaurant_Page_TOP/issues"
+  },
+  "homepage": "https://github.com/alexsrebernic/Restaurant_Page_TOP#readme",
+  "devDependencies": {
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  }
+}
