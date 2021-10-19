@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+#container {
+    background-image: url(img/uploadswallpaper.b75843cd.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    nav {
+        width: 20%;
+        margin-bottom: 5px;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            #menu {
+                text-align: center;
+            }
+            li {
+                list-style: none;
+                font-family: 'Ephesis', cursive;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+        }
+    }
+    #menuCards {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+    }
+    .card {
+        width: 450px;
+        height: 250px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Libre Baskerville', serif;
+        border-radius: 5px;
+        h2 {
+            border-radius: 5px;
+            font-size: 23px;
+        }
+    }
+}

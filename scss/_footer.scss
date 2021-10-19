@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    svg {
+        transition: 0.3s ease;
+        margin: 5px;
+    }
+    svg:hover{ 
+        transform: scale(1.2);
+    }
+}

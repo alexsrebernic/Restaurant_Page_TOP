@@ -1,1 +1,305 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+
+footer svg {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  margin: 5px;
+}
+
+footer svg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hero #hero_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#hero #hero_right nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 7vh;
+  width: 80%;
+  border-bottom: 1px solid black;
+}
+
+#hero #hero_right nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  list-style: none;
+}
+
+#hero #hero_right nav ul li button {
+  cursor: pointer;
+  font-family: 'Ephesis', cursive;
+  font-size: 30px;
+  border: none;
+  background: none;
+}
+
+#hero #hero_right #images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 70%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero #hero_right #images img {
+  height: 65vh;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  width: 17.5rem;
+  height: 35rem;
+}
+
+#hero #hero_right #images img:hover {
+  -webkit-transform: scale(1.009);
+          transform: scale(1.009);
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+#hero #button_slider {
+  justify-self: center;
+  margin-bottom: 5px;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#hero #button_slider button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#hero #button_slider svg {
+  width: 30px;
+  justify-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#hero #hero_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 95vh;
+}
+
+#hero #hero_left h1 {
+  font-size: 70px;
+  font-family: 'Ephesis', cursive;
+}
+
+#hero #hero_left h3 {
+  font-family: cursive;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#hero #hero_left #discover_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  background: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#hero #hero_left #title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80%;
+  height: 70%;
+}
+
+#hero #hero_left svg {
+  width: 20px;
+}
+
+#hero #social_media {
+  width: 80%;
+}
+
+#hero #social_media a {
+  margin: 5px;
+}
+
+#hero #social_media svg {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#hero #social_media svg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#container {
+  background-image: url(img/uploadswallpaper.b75843cd.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container nav {
+  width: 20%;
+  margin-bottom: 5px;
+}
+
+#container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#container nav ul #menu {
+  text-align: center;
+}
+
+#container nav ul li {
+  list-style: none;
+  font-family: 'Ephesis', cursive;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#container #menuCards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+#container .card {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Libre Baskerville', serif;
+  border-radius: 5px;
+}
+
+#container .card h2 {
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */
