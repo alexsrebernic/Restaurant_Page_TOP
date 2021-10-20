@@ -5,3 +5,17 @@
     margin: 0;
     padding: 0;
 }
+.emerge{
+    animation: emerge 1s linear ;
+}
+.desvanecerse{
+    animation: desvanecerse 1s linear;
+}
+@keyframes desvanecerse {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

@@ -1,7 +1,105 @@
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,800;1,600&display=swap");
+#contact header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#contact header nav {
+  width: 30%;
+  margin-bottom: 5px;
+}
+
+#contact header nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#contact header nav ul li {
+  list-style: none;
+  font-family: 'Ephesis', cursive;
+  font-size: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#contact #container_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact #container_contact #contact_us {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#contact #container_contact #contact_us p {
+  text-align: center;
+}
+
+#contact #container_contact #contact_us form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#contact #container_contact #contact_us h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#contact #container_contact #google_map {
+  width: 40%;
+  height: 20%;
+}
+
 footer {
+  background: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,7 +323,9 @@ footer svg:hover {
 }
 
 #container {
-  background-image: url(img/uploadswallpaper.b75843cd.jpg);
+  background-repeat: repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("/dist/img/uploadswallpaper.b75843cd.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/dist/img/uploadswallpaper.b75843cd.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,12 +341,30 @@ footer svg:hover {
           flex-direction: column;
 }
 
+#container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
 #container nav {
-  width: 20%;
+  width: 30%;
   margin-bottom: 5px;
 }
 
 #container nav ul {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,15 +372,12 @@ footer svg:hover {
       justify-content: space-around;
 }
 
-#container nav ul #menu {
-  text-align: center;
-}
-
 #container nav ul li {
   list-style: none;
   font-family: 'Ephesis', cursive;
   font-size: 30px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #container #menuCards {
@@ -276,7 +391,7 @@ footer svg:hover {
 #container .card {
   width: 450px;
   height: 250px;
-  border: 1px solid black;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,13 +402,116 @@ footer svg:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Libre Baskerville', serif;
   border-radius: 5px;
+  background-size: cover;
+}
+
+#container .card div {
+  display: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-animation: emerge 1s linear;
+          animation: emerge 1s linear;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+#container .card div h2, #container .card div p {
+  width: 60%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Andada Pro', serif;
+}
+
+#container .card div h2 {
+  font-size: 800;
+  width: 100%;
+}
+
+#container .card div p {
+  font-size: 400;
+  font-size: 20px;
 }
 
 #container .card h2 {
   border-radius: 5px;
   font-size: 23px;
+  width: 90%;
+  height: 40px;
+}
+
+#container .card:hover div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#container #index1 {
+  background-image: url("/dist/img/303183_154959034594290_1000590852_n.jpg");
+}
+
+#container #index2 {
+  background-image: url("/dist/img/578398_400991823324342_579057430_n.jpg");
+  background-position: center;
+}
+
+#container #index3 {
+  background-image: url("/dist/img/13533265_1300190303341990_6289235736896763950_n.jpg");
+}
+
+#container #index4 {
+  background-image: url(/dist/img/cheesecake5.jpg);
+}
+
+#container #index5 {
+  background-image: url(/dist/img/DSC07813.JPG);
+}
+
+#container #index6 {
+  background-image: url(/dist/img/IMG_20150802_131515.jpg);
+}
+
+#container #index7 {
+  background-image: url(/dist/img/IMG_20210205_200048274.jpg);
+  background-position: center;
+}
+
+#container #index8 {
+  background-image: url("/dist/img/pizzeta (1).jpg");
+}
+
+#container #index9 {
+  background-image: url(/dist/img/tostado.jpg);
+}
+
+@-webkit-keyframes emerge {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes emerge {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 * {
@@ -301,5 +519,33 @@ footer svg:hover {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.emerge {
+  -webkit-animation: emerge 1s linear;
+          animation: emerge 1s linear;
+}
+
+.desvanecerse {
+  -webkit-animation: desvanecerse 1s linear;
+          animation: desvanecerse 1s linear;
+}
+
+@-webkit-keyframes desvanecerse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes desvanecerse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

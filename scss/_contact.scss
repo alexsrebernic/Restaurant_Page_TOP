@@ -1,0 +1,55 @@
+
+#contact{
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        nav {
+            width: 30%;
+            margin-bottom: 5px;
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                
+                li {
+                    list-style: none;
+                    font-family: 'Ephesis', cursive;
+                    font-size: 30px;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    #container_contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #contact_us {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            p {
+                text-align: center;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            h2 {
+                align-self: center;
+            }
+            
+        }
+        #google_map{
+            width: 40%;
+            height: 20%;
+        }
+    }
+}
