@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,800;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,800;1,600&display=swap");
-#contact header {
+#contactContainer header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,12 +20,12 @@
   width: 100%;
 }
 
-#contact header nav {
+#contactContainer header nav {
   width: 30%;
   margin-bottom: 5px;
 }
 
-#contact header nav ul {
+#contactContainer header nav ul {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,7 +34,7 @@
       justify-content: space-around;
 }
 
-#contact header nav ul li {
+#contactContainer header nav ul li {
   list-style: none;
   font-family: 'Ephesis', cursive;
   font-size: 30px;
@@ -41,7 +42,131 @@
   cursor: pointer;
 }
 
-#contact #container_contact {
+#contactContainer #container_contact {
+  font-family: 'Andada Pro', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 75vh;
+}
+
+#contactContainer #container_contact #contact_us {
+  width: 30%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#contactContainer #container_contact #contact_us p {
+  text-align: center;
+  width: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#contactContainer #container_contact #contact_us form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-top: 10px;
+}
+
+#contactContainer #container_contact #contact_us form input {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+}
+
+#contactContainer #container_contact #contact_us form button {
+  margin-top: 4px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 16px;
+  border-radius: 2px;
+  width: 14.5625rem;
+}
+
+#contactContainer #container_contact #contact_us h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+#contactContainer #container_contact #contact_us .data {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 80%;
+}
+
+#contactContainer #container_contact #contact_us .consulta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contactContainer #container_contact #contact_us #social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contactContainer #container_contact #contact_us #social_media p {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+#contactContainer #container_contact #contact_us #social_media svg {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  margin-left: 6px;
+}
+
+#contactContainer #container_contact #contact_us #social_media svg:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#contactContainer #google_map {
+  width: 40%;
+  height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,51 +176,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#contact #container_contact #contact_us {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 
-#contact #container_contact #contact_us p {
-  text-align: center;
-}
-
-#contact #container_contact #contact_us form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-#contact #container_contact #contact_us h2 {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-#contact #container_contact #google_map {
-  width: 40%;
-  height: 20%;
+#contactContainer #google_map h2 {
+  text-decoration: underline;
 }
 
 footer {
