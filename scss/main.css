@@ -143,6 +143,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 80%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -150,7 +151,7 @@
 
 #contactContainer #container_contact #contact_us #social_media p {
   margin-bottom: 10px;
-  width: 50%;
+  width: 80%;
 }
 
 #contactContainer #container_contact #contact_us #social_media svg {

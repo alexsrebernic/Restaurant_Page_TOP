@@ -81,10 +81,12 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                width: 80%;
                 justify-content: center;
                 p {
+
                     margin-bottom: 10px;
-                    width: 50%;
+                    width: 80%;
                 }
                 svg {
                     transition: 0.3s ease ;
